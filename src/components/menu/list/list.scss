@@ -1,0 +1,62 @@
+.sidebar {
+  $self: &;
+  &__list {
+    flex: 1;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+    &.active {
+      background: #ffffff;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+    }
+    &:hover #{$self}__remove {
+      opacity: 0.2;
+    }
+
+    #{$self}__remove {
+      opacity: 0;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  &__item {
+    flex: 1;
+    display: flex;
+    padding: 10px 0 10px 12px;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+
+  &__text {
+    width: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  &__remove {
+    padding: 10px 12px 10px 0;
+  }
+}
+.icon {
+  &__figure {
+    width: 10px;
+    height: 10px;
+    background-color: teal;
+    border-radius: 50%;
+  }
+}

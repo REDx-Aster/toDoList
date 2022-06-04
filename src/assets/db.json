@@ -1,0 +1,114 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Front-end",
+      "colorId": 5
+    },
+    {
+      "id": 2,
+      "name": "Back-end",
+      "colorId": 4
+    },
+    {
+      "id": 3,
+      "name": "Movies",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "colorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sport",
+      "colorId": 1
+    },
+    {
+      "id": 6,
+      "name": "Other",
+      "colorId": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Изучить JavaScript",
+      "completed": true,
+      "listId": 2
+    },
+    {
+      "id": 2,
+      "text": "Изучить паттерны проектирования",
+      "completed": false,
+      "listId": 1
+    },
+    {
+      "id": 3,
+      "text": "ReactJS Hooks (useState, useReducer, useEffect и т.д.)",
+      "completed": true,
+      "listId": 1
+    },
+    {
+      "id": 4,
+      "text": "Redux (redux-observable, redux-saga)",
+      "completed": false,
+      "listId": 1
+    },
+    {
+      "id": 5,
+      "text": "Купить 1984!",
+      "completed": true,
+      "listId": 4
+    },
+    {
+      "id": 6,
+      "text": "create To-Do-List",
+      "completed": true,
+      "listId": 4
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}
