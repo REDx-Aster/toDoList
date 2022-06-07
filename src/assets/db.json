@@ -24,11 +24,6 @@
       "id": 5,
       "name": "Sport",
       "colorId": 1
-    },
-    {
-      "id": 6,
-      "name": "Other",
-      "colorId": 3
     }
   ],
   "tasks": [

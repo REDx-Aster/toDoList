@@ -20,17 +20,23 @@ body {
 .todo {
   display: flex;
   width: calc(100vw - 30px);
-  height: 600px;
+  width: 900px;
+  height: auto;
   box-shadow: 1px 2px 20px #f3f3f3;
   border-radius: 10px;
   border: 1px solid #f1f1f1;
   font-size: 14px;
   position: relative;
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+  }
+  @media (max-width: 900px) {
+    width: auto;
+  }
 
   &__sidebar {
     background-color: #f4f6f8;
-    width: 220px;
-    height: 100%;
+    width: auto;
     border-right: 1px solid #f1f1f1;
     padding: 60px 20px;
     display: flex;
@@ -38,6 +44,7 @@ body {
   }
   &__window {
     flex: 1;
+
     padding: 60px;
     overflow-y: scroll;
   }
